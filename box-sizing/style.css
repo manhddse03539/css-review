@@ -1,0 +1,17 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    font-size: 12px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#box:hover {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
